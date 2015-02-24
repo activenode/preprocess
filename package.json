@@ -4,16 +4,14 @@
   "version": "2.1.1",
   "homepage": "https://github.com/jsoverson/preprocess",
   "author": {
-    "name": "Jarrod Overson",
-    "email": "jsoverson@gmail.com",
-    "url": "http://jarrodoverson.com/"
+    "name": "David Lorenz (Original author: Jarrod Overson, http://jarrodoverson.com/)"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsoverson/preprocess.git"
+    "url": "git://github.com/activenode/preprocess.git"
   },
   "bugs": {
-    "url": "https://github.com/jsoverson/preprocess/issues"
+    "url": "https://github.com/activenode/preprocess/issues"
   },
   "licenses": [
     {
