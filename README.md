@@ -1,4 +1,4 @@
-# preprocess  [![Build Status](https://travis-ci.org/jsoverson/preprocess.png?branch=master)](https://travis-ci.org/jsoverson/preprocess)
+# preprocess  
 
 Preprocess HTML, JavaScript, and other files with directives based off custom or ENV configuration
 
