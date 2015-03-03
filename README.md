@@ -87,6 +87,17 @@ environment configurations. You have access to simple tests of any variable with
     <!-- @if NODE_ENV='production' -->
     <script src="some/production/javascript.js"></script>
     <!-- @endif -->
+    
+    <!-- 
+      The following line only works with .html and ONLY 
+      when your context contains the MODULE_ELEMENTS_BASE variable set!
+      
+      The following line will then load MODULE_ELEMENTS_BASE/myfolder/myfile.html
+      and replace {{var}} and {{var2}} with its corresponding values set in data-context.
+      If you need to actually extend the Preprocess context, use the following:
+      data-context="{'context': {'A_PREPROCESS_VAR': 'any value'}}"
+    -->
+    <use src="myfolder/myfile" data-context="{'var': 'val', 'var2':'val2'}" />
 
     <script>
     var fingerprint = '<!-- @echo COMMIT_HASH -->' || 'DEFAULT';
