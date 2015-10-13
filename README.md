@@ -1,6 +1,7 @@
 # preprocess  
 
-Preprocess HTML, JavaScript, and other files with directives based off custom or ENV configuration
+Preprocess HTML, JavaScript, and other files with directives based off custom or ENV configuration.
+*This is a strongly modified version of preprocess. Everything is documented below.*
 
 ## What does it look like?
 
